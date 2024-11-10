@@ -1,0 +1,79 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.python-version
+*.env
+
+# Django
+db.sqlite3
+/media
+/staticfiles
+/local_settings.py
+
+# Environments
+venv/
+env/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log*
+
+# React Build
+/build
+/dist
+
+# Logs
+*.log
+logs/
+*.log.*
+*.pid
+
+# Coverage
+.coverage
+htmlcov/
+.tox/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+
+# Test results
+coverage.xml
+*.cover
+.cache
+nosetests.xml
+*.mo
+*.pot
+
+# Typescript
+*.tsbuildinfo
+
+# dotenv
+.env.*
+.env
+
+# Pytest
+.pytest_cache/
+__pycache__
