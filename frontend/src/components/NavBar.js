@@ -39,7 +39,7 @@ export default function NavBar(props) {
               <ListItemIcon>
                 <HomeIcon />
               </ListItemIcon>
-              <ListItemText primary={"Home"} />
+              <ListItemText primary={"Início"} />
             </ListItemButton>
           </ListItem>
 
@@ -48,7 +48,7 @@ export default function NavBar(props) {
               <ListItemIcon>
                 <InfoIcon />
               </ListItemIcon>
-              <ListItemText primary={"About"} />
+              <ListItemText primary={"Sobre"} />
             </ListItemButton>
           </ListItem>
 
@@ -57,7 +57,7 @@ export default function NavBar(props) {
               <ListItemIcon>
                 <CreateIcon />
               </ListItemIcon>
-              <ListItemText primary={"Create"} />
+              <ListItemText primary={"Novo"} />
             </ListItemButton>
           </ListItem>
 
@@ -79,7 +79,7 @@ export default function NavBar(props) {
           </IconButton>
 
           <Typography variant="h6" noWrap component="div">
-            Our Aplication
+            MEU APP 
           </Typography>
         </Toolbar>
       </AppBar>
